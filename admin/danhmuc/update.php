@@ -10,9 +10,9 @@ if (is_array($dm)) {
          <div class="row2 form_content ">
           <form action="index.php?act=updatedm" method="POST">
            <div class="row2 mb10 form_content_container">
-           <label> Mã loại </label> <br>
+           <!-- <label> Mã loại </label> <br>
             <input type="text" name="maloai" placeholder="nhập vào mã loại">
-           </div>
+           </div> -->
            <div class="row2 mb10">
             <label>Tên loại </label> <br>
             <input type="text" name="tenloai" value="<?php if (isset($name)&&($name!="")) echo $name;?>"  placeholder="nhập vào tên">
